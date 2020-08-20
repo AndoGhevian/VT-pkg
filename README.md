@@ -13,7 +13,7 @@ Generated package will work both on **windows** and **Linux**.
 1. Clone repo: `git clone https://github.com/AndoGhevian/VT-pkg.git`
 1. Change current directory: `cd VT-pkg`
 1. Run **packing script** and get **_"vt-pkg"_** executable in current folder: `npm run pkgpack`
-1. Move it anywhere you want and run created executable: `./VT-pkg`
+1. Move it anywhere you want and run created executable: `./vt-pkg`
 
 You see, it works from anywhere, it automatically finds and runs **terminal**, and executes main.js script from **Internal FileSystem** in this new opened terminal. Vuola!:)
 
