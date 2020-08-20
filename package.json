@@ -1,0 +1,26 @@
+{
+  "name": "vt-pkg",
+  "version": "1.0.0",
+  "description": "Using open-term with npm 'pkg'",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pkgpack": "pkg -o vt-pkg ."
+  },
+  "bin": "index.js",
+  "pkg": {
+    "assets": [
+      "main.js"
+    ]
+  },
+  "keywords": [
+    "open-term",
+    "pkg"
+  ],
+  "author": "Ando",
+  "license": "ISC",
+  "dependencies": {
+    "open-term": "^1.1.8"
+  }
+}
