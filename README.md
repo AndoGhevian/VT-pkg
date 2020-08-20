@@ -15,7 +15,7 @@ Generated package will work both on **windows** and **Linux**.
 1. Run **packing script** and get **_"vt-pkg"_** executable in current folder: `npm run pkgpack`
 1. Move it anywhere you want and run created executable: `./vt-pkg`
 
-You see, it works from anywhere, it automatically finds and runs **terminal**, and executes main.js script from **Internal FileSystem** in this new opened terminal. Vuola!:)
+You see it works from anywhere, it automatically finds and runs **terminal**, and executes main.js script from **Internal FileSystem** in this new opened terminal. Vuola!:)
 
 **Be sure to read Important Notes section!!**
 
@@ -35,7 +35,7 @@ You see, it works from anywhere, it automatically finds and runs **terminal**, a
     // when project is packed, this refer to internal filesystem.
     // See: https://www.npmjs.com/package/pkg#snapshot-filesystem
     const internalFs = __dirname 
-    
+
     const cmdProcess = child.spawn(`${internalNode}`, [`${internalFs}/main.js`], {
         stdio: 'inherit'
     })
